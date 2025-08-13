@@ -1,0 +1,23 @@
+FROM llama3.1:8b
+
+# Paramètres de fine-tuning
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+
+# Prompt système pour le banking
+SYSTEM """Vous êtes un assistant bancaire expert et professionnel. 
+Vous aidez les clients avec leurs questions bancaires de manière précise, courtoise et professionnelle.
+Utilisez vos connaissances spécialisées en services bancaires pour fournir des réponses utiles et appropriées."""
+
+# Template de conversation
+TEMPLATE """<|im_start|>system
+{{ .System }}<|im_end|>
+<|im_start|>user
+{{ .Prompt }}<|im_end|>
+<|im_start|>assistant
+"""
+
+# Données d'entraînement
+ADAPTER ollama_training_data.jsonl

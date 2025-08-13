@@ -1,0 +1,490 @@
+{
+  "summary": {
+    "avg_similarity": 0.31738317574606734,
+    "avg_banking_score": 4.95,
+    "test_size": 20,
+    "excellent_count": 1,
+    "good_count": 0,
+    "moderate_count": 9,
+    "poor_count": 10
+  },
+  "detailed_results": [
+    {
+      "question": "What is the profit rate for FCY term deposits?",
+      "expected": "Profit Rate for USD: 0.0025, GBP: 0.0025, EUR: 0.",
+      "generated": "user\n\nWhat is the profit rate for FCY term deposits?assistant\n\nProfit Rate: 0.0005 (Monthly), Profit Payment: Monthly, Profit Calculation Basis: Daily Balance. Note: Profit rates are subject to change and may be reviewed periodically. Please check with the bank for the most up-to-date information.",
+      "generation_time": 8.099414825439453,
+      "similarity": {
+        "sequence_similarity": 0.17901234567901234,
+        "word_similarity": 0.375,
+        "combined_score": 0.31620370370370365,
+        "common_words": 3,
+        "expected_words": 8
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "bank",
+          "balance",
+          "deposit",
+          "payment"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "What is the maximum tenure of NUST Imarat Finance?",
+      "expected": "AIF 1: Maximum 10 years (Grace Period up to 6 months). AIF 2: Maximum 10 years (Grace Period up to 9 months). AIF 3: Maximum 8 years (Grace Period up to 6 months). AIF 4: Maximum 3 years (Grace Period up to 3 months). (Markup to be recovered during the grace period).",
+      "generated": "user\n\nWhat is the maximum tenure of NUST Imarat Finance?assistant\n\nThe maximum tenure of NUST Imarat Finance is 7 years. It includes 1 year grace period and 6 years repayment period. The profit payment frequency is Monthly/Quarterly/Half Yearly/Annually, as per customer needs. Profit Payment Mode: Direct Deposit in Customer Account. Profit Rate: 12M KIBOR + 4% Per Annum. Markup at quarterly rests. Markup will be recovered & paid on semi-annual basis. Profit Payment Frequency: Monthly/Quarterly/Half Yearly/Annually, as per customer needs. Profit Payment Mode: Direct Deposit in Customer Account. Profit Rate: 12M KIBOR + 4% Per Annum. Markup at quarterly rests. Markup will be recovered & paid on semi-annual basis. Profit Payment Frequency: Monthly/Quarterly/Half Yearly/Annually, as per customer needs. Profit Payment Mode: Direct Deposit in Customer Account. Profit Rate: 12M KIBOR +",
+      "generation_time": 26.370105504989624,
+      "similarity": {
+        "sequence_similarity": 0.04018264840182648,
+        "word_similarity": 0.5238095238095238,
+        "combined_score": 0.37872146118721456,
+        "common_words": 11,
+        "expected_words": 21
+      },
+      "banking_eval": {
+        "banking_score": 6,
+        "banking_words": [
+          "account",
+          "deposit",
+          "payment",
+          "customer",
+          "maximum",
+          "annual"
+        ],
+        "relevance_percentage": 24
+      }
+    },
+    {
+      "question": "What is RDA Digital Customer Onboarding?",
+      "expected": "RDA Digital Customer Onboarding is an innovative service by NUST Bank that allows customers to open and manage their accounts digitally, providing a seamless experience without the need for physical visits.",
+      "generated": "user\n\nWhat is RDA Digital Customer Onboarding?assistant\n\nRDA (Retail Data Analytics) Digital Customer Onboarding is a comprehensive platform designed to streamline and enhance the customer onboarding process for financial institutions, such as banks and credit unions. It's built around digital channels, aiming to provide a seamless experience for customers when they open new accounts or apply for other banking services digitally. This platform typically offers several key features:\n\n1. **Digital Application**: Customers can initiate the account opening process online, filling out application forms electronically.\n\n2. **Document Upload**: Users can upload required documents, reducing the need for physical visits to branches and speeding up the verification process.\n\n3. **Identity Verification**: Advanced identity verification tools are integrated to ensure that only legitimate applicants proceed with the onboarding process.\n\n4. **Address Verification**: Similar to identity verification, this feature helps in confirming the applicant’s address, ensuring compliance with anti-money laundering regulations.\n\n5. **KYC/AML Compliance**: The system ensures that all Know Your Customer (KYC) and Anti-Money Lau",
+      "generation_time": 27.305606603622437,
+      "similarity": {
+        "sequence_similarity": 0.010226442658875092,
+        "word_similarity": 0.6451612903225806,
+        "combined_score": 0.4546808360234689,
+        "common_words": 20,
+        "expected_words": 31
+      },
+      "banking_eval": {
+        "banking_score": 7,
+        "banking_words": [
+          "account",
+          "bank",
+          "credit",
+          "branch",
+          "customer",
+          "service",
+          "application"
+        ],
+        "relevance_percentage": 28
+      }
+    },
+    {
+      "question": "What is the Target Market?",
+      "expected": "Individuals running a freelance service business",
+      "generated": "user\n\nWhat is the Target Market?assistant\n\nThe target market, also known as a target audience or target customer, refers to the specific group of customers that an organization aims to reach with its products or services. It involves identifying and defining the characteristics of potential buyers who are most likely to purchase your product or service.\n\nA well-defined target market helps businesses:\n\n1.  **Understand their needs**: By understanding the needs, preferences, and behaviors of their target market, businesses can tailor their marketing strategies to effectively communicate value and meet those needs.\n2.  **Develop targeted marketing campaigns**: Knowing the demographics, interests, and pain points of the target market enables businesses to create relevant messaging, advertising, and promotional activities that resonate with them.\n3.  **Optimize resource allocation**: Focusing on a specific target market allows businesses to allocate resources more efficiently, ensuring they're reaching the right people with the right message at the right time.\n4.  **Measure success**: Defining a target market provides a clear benchmark for measuring the effectiveness of",
+      "generation_time": 25.98589253425598,
+      "similarity": {
+        "sequence_similarity": 0.05218855218855219,
+        "word_similarity": 0.3333333333333333,
+        "combined_score": 0.24898989898989896,
+        "common_words": 2,
+        "expected_words": 6
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "interest",
+          "customer",
+          "service"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "What are the main features of these EFU Insurance Plans?",
+      "expected": " - 14 Days Free Look Period start from the day customer received Policy Documents.\n - Unit Link growth system (EFU allocate Mutual fund units to customer, policy growth depends on the unit rate growth just like share Market)\n - NUST bank is only acting as a Corporate Sales Agent. It’s an Insurance plan not to be considered as any Account or Term deposit which has annual Fixed Returns.\n - In case of early termination, only Cash Value of policy will be payable to customer (current market rate of Mutual funds units will be reimbursed)\n - Cancellation of policy and full refund option is available if policy documents returned during Free Look Period i.e. 14 days of receipt of documents\n - Cash Values of policy may differ from the tentative returns provided on illustration document (illustration document is only for information)",
+      "generated": "user\n\nWhat are the main features of these EFU Insurance Plans?assistant\n\n• 14 Days Free Look Period. • Unit Link Growth Plan (ULGP) - A unit linked plan where growth is directly linked with market performance of your investments. • Death Benefit: 2x Sum Assured on death, in case of unfortunate demise of policyholder during the policy term. • Maturity Benefit: 100% of Total Acquired Value (TAV) will be paid to the policyholder upon maturity or death. • Annual, Half Yearly, Quarterly and Monthly Payment Modes available. • Minimum Policy Term: 10 Years. • Maximum Policy Term: 20 Years. • Minimum Single Premium: Rs. 50,000. • Minimum Annual/ Half Yearly/Quarterly/Monthly Premium: Rs. 25,000. • Minimum Policy Amount: Rs. 500,000. • Maximum Policy Amount: No Limit. • Minimum Age at Entry: 18 years. • Maximum Age at Entry: 40 years. • Minimum Age at M",
+      "generation_time": 26.1821608543396,
+      "similarity": {
+        "sequence_similarity": 0.06815365551425032,
+        "word_similarity": 0.33707865168539325,
+        "combined_score": 0.25640115283405035,
+        "common_words": 30,
+        "expected_words": 89
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "payment",
+          "minimum",
+          "maximum",
+          "annual"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "Is there any account NUST Bank is offering for remittance purposes?",
+      "expected": "Yes, PakWatan Remittance Account. Through the PakWatan Remittance Account, beneficiaries can quickly and securely receive remittances from their loved one living abroad directly into their bank account without visiting the branch.",
+      "generated": "user\n\nIs there any account NUST Bank is offering for remittance purposes?assistant\n\nNUST Remittance Account. A current account with a minimum balance requirement of Rs. 50,000/- to meet the needs of remittance recipients. Free Issuance of Cheque Books and Debit Cards (NUST MasterCard). Free SMS alerts on transactions. Free Internet Banking & Mobile Banking. Free Inter Branch Online Cash Withdrawal/Deposit. Free Internal Fund Transfer within NUST via branch (Online Transfer). Free E-statement & I-Net Banking. Free Banker’s Cheque Issuance. Free Locker Rental (one locker per account). Free SMS Alerts on Transactions. Free Inter Branch Online Cash Withdrawal/Deposit. Free Internal Fund Transfer within NUST via branch (Online Transfer). Free E-Statement & I-Net Banking. Free Banker’s Cheque Issuance. Free Locker Rental (one locker per account). Free SMS Alerts on Transactions. Free Inter Branch Online Cash Withdrawal/Deposit. Free Internal Fund Transfer within NUST via branch (Online Transfer",
+      "generation_time": 27.352184772491455,
+      "similarity": {
+        "sequence_similarity": 0.03888419273034658,
+        "word_similarity": 0.28,
+        "combined_score": 0.20766525781910397,
+        "common_words": 7,
+        "expected_words": 25
+      },
+      "banking_eval": {
+        "banking_score": 12,
+        "banking_words": [
+          "account",
+          "bank",
+          "balance",
+          "transfer",
+          "debit",
+          "deposit",
+          "withdrawal",
+          "transaction",
+          "branch",
+          "card",
+          "statement",
+          "minimum"
+        ],
+        "relevance_percentage": 48
+      }
+    },
+    {
+      "question": "What are the salient features of NUST Waqaar Account?",
+      "expected": "• Savings: Minimum Age to qualify: 55 years, Profit Calculation: Monthly Average Balance, Profit Payment Frequency: Monthly, Debit Card & Cheque Book issuance as per prevailing SOC (for linked account), Currency: PKR. • Term Deposit: Tenure: 1 Year, Profit Rate: 0.1675, Profit Payment Frequency: Monthly, Debit Card & Cheque Book issuance as per prevailing SOC.",
+      "generated": "user\n\nWhat are the salient features of NUST Waqaar Account?assistant\n\nThe salient features of NUST Waqaar Account are as under:\ni. Minimum Initial Deposit: Rs.1,000/-\nii. Minimum Monthly Average Balance: Rs.50,000/- (For all accounts)\niii. Profit Payment Frequency: Semi-Annually\niv. Profit Calculation: Monthly average balance\nv. Profit Rate: 0.19% per annum on monthly average balance above Rs.50,000/-\nvi. Debit Card Issuance Charges: Free\nvii. Cheque Book Issuance Charges: Free\nviii. SMS Alerts on Digital Transactions: Free\nix. Internet Banking: Free\nx. Inter Branch Online Cash Withdrawal/Deposit: Free\nxi. Banker’s Cheque Issuance Charges: Free\nxii. ATM Cash Withdrawal Limit Per Day: Free\nxiii. E-statement & I-Net Banking: Free\nxiv. Locker Rental Charges: Free for first year and Rs.",
+      "generation_time": 29.841556310653687,
+      "similarity": {
+        "sequence_similarity": 0.031569173630454965,
+        "word_similarity": 0.5714285714285714,
+        "combined_score": 0.40947075208913647,
+        "common_words": 20,
+        "expected_words": 35
+      },
+      "banking_eval": {
+        "banking_score": 15,
+        "banking_words": [
+          "account",
+          "bank",
+          "balance",
+          "charge",
+          "debit",
+          "deposit",
+          "withdrawal",
+          "payment",
+          "transaction",
+          "branch",
+          "atm",
+          "card",
+          "statement",
+          "minimum",
+          "annual"
+        ],
+        "relevance_percentage": 60
+      }
+    },
+    {
+      "question": "What are the processing charges for PMYB & ALS?",
+      "expected": "Rs. 100/-",
+      "generated": "user\n\nWhat are the processing charges for PMYB & ALS?assistant\n\nThe processing charges for PMYB & ALS are as under: i) PMYB: Rs. 1000/- per borrower (non-refundable). ii) ALS: Rs. 5000/- per borrower (non-refundable). Note: These charges may be revised from time to time by NUST. The same will be notified on SBP’s website. It is also noted that these charges should not be recovered from borrowers. They should be borne by banks/DFIs. In case of any dispute, it may be resolved with SBP.",
+      "generation_time": 18.05068612098694,
+      "similarity": {
+        "sequence_similarity": 0.02591792656587473,
+        "word_similarity": 0.5,
+        "combined_score": 0.3577753779697624,
+        "common_words": 1,
+        "expected_words": 2
+      },
+      "banking_eval": {
+        "banking_score": 2,
+        "banking_words": [
+          "bank",
+          "charge"
+        ],
+        "relevance_percentage": 8
+      }
+    },
+    {
+      "question": "How will I get update of my House Loan Application?",
+      "expected": "Our Sales/ front end staff is quite supportive and always there to serve you. You can visit/call or send email at our Customer Services center(s) as well. Email Address: CustomerServices@nustbank.com.pk.",
+      "generated": "user\n\nHow will I get update of my House Loan Application?assistant\n\nYou can contact our 24-hour Contact Centre at 1500 441 (toll-free) or visit any NUST Branch for updates on your application. You can also email us at [houseloan@nu.edu.pk](mailto:houseloan@nu.edu.pk).",
+      "generation_time": 7.421389579772949,
+      "similarity": {
+        "sequence_similarity": 0.28054298642533937,
+        "word_similarity": 0.2222222222222222,
+        "combined_score": 0.23971845148315735,
+        "common_words": 6,
+        "expected_words": 27
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "loan",
+          "branch",
+          "application"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "What is the Target Market?",
+      "expected": "The target market for NUST Asaan Digital Remittance Account includes individuals - beneficiaries (families) of Pakistanis working abroad.",
+      "generated": "user\n\nWhat is the Target Market?assistant\n\nThe target market, also known as a target audience or target customer, refers to the specific group of customers that an organization aims to reach with its products or services. It involves identifying and selecting a particular segment of potential buyers who are most likely to be interested in and responsive to the product or service being offered.\n\nDefining a target market helps businesses:\n\n1.  **Focus their marketing efforts**: By targeting a specific audience, companies can tailor their messages, channels, and strategies to effectively communicate with and engage their ideal customers.\n2.  **Develop relevant products or services**: Understanding the needs and preferences of the target market enables businesses to create offerings that meet those needs and differentiate themselves from competitors.\n3.  **Allocate resources efficiently**: Focusing on a specific target market allows organizations to allocate their resources (time, budget, personnel) more effectively, increasing the chances of achieving their business objectives.\n4.  **Measure success**: With a clear target market definition, businesses can set measurable goals and track",
+      "generation_time": 26.053606510162354,
+      "similarity": {
+        "sequence_similarity": 0.13312693498452013,
+        "word_similarity": 0.23529411764705882,
+        "combined_score": 0.20464396284829722,
+        "common_words": 4,
+        "expected_words": 17
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "interest",
+          "customer",
+          "service"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "What are the processing charges for NUST Sahar Finance Application?",
+      "expected": "Up to Rs. 0.70 Million: Rs. 2000/- (Non refundable). Above Rs. 0.70 and upto Rs. 5 Million: Rs. 3000/- (Non refundable).",
+      "generated": "user\n\nWhat are the processing charges for NUST Sahar Finance Application?assistant\n\nProcessing Charges (Non-refundable) Rs. 1,000/- per applicant. Late Payment Charges @ 0.35% p.m. or maximum Rs. 3,500/- per month whichever is higher. Early Termination/ Balloon Payment Charges @ 4% p.a. or Maximum Rs. 30,000/- whichever is higher. Document preparation and attestation charges @ Rs. 1000/- per document. Late Payment Charges @ 0.35% p.m. or maximum Rs. 3,500/- per month whichever is higher. Early Termination/ Balloon Payment Charges @ 4% p.a. or Maximum Rs. 30,000/- whichever is higher. Document preparation and attestation charges @ Rs. 1000/- per document. Late Payment Charges @ 0.35% p.m. or maximum Rs. 3,500/- per month whichever is higher. Early Termination/ Balloon Payment Charges @ 4% p",
+      "generation_time": 26.197752475738525,
+      "similarity": {
+        "sequence_similarity": 0.15440289505428226,
+        "word_similarity": 0.15384615384615385,
+        "combined_score": 0.15401317620859237,
+        "common_words": 2,
+        "expected_words": 13
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "charge",
+          "payment",
+          "application",
+          "maximum"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "Is NUST Bank Participating in PMYB & ALS?",
+      "expected": "NUST Bank is actively participating in PMYB&ALS. It has been specially designed to provide self-employment opportunity to the unemployed youth of the country who have skills, knowledge, experience or willingness to start their own businesses on small to medium scale or expand existing business on vast scale.",
+      "generated": "user\n\nIs NUST Bank Participating in PMYB & ALS?assistant\n\nYes, NUST Bank is participating in PMYB&ALS. It was launched by the government to provide financing opportunities for the youth and women of Pakistan. The bank offers various loan products under this program with competitive profit rates and flexible repayment terms. The main objective of PMYB&ALS is to promote entrepreneurship among the youth and women of Pakistan. NUST Bank has been actively participating in this program since its inception and has provided numerous loans to eligible borrowers under this scheme. The bank's participation in PMYB&ALS demonstrates its commitment to supporting the economic growth and development of the country through inclusive banking practices. NUST Bank's involvement in PMYB&ALS also reflects its efforts to cater to the financial needs of the target segment, promoting financial inclusion and economic empowerment. The bank's participation in this program contributes to the achievement of the government's goals related to poverty reduction, job creation, and economic growth. By offering a range of loan products under PMYB&ALS, N",
+      "generation_time": 26.400906324386597,
+      "similarity": {
+        "sequence_similarity": 0.018387553041018388,
+        "word_similarity": 0.4,
+        "combined_score": 0.2855162659123055,
+        "common_words": 16,
+        "expected_words": 40
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "bank",
+          "loan",
+          "payment"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "Is there any late payment charges?",
+      "expected": "PKR 1,000/- plus FED per instance per installment, grace period included. Late Payment to be triggered 15 days after installment becomes due i.e. on day 16.",
+      "generated": "user\n\nIs there any late payment charges?assistant\n\nYes, Late Payment Charges (LPC) will be applicable as per prevailing Bank’s schedule of charges. Please visit our website for details on the same. https://www.axisbank.com/personal-banking/fees-charges/Pages/ScheduleOfChargesPersonalBanking.aspx#NRE/NRO.",
+      "generation_time": 8.55064082145691,
+      "similarity": {
+        "sequence_similarity": 0.2505800464037123,
+        "word_similarity": 0.20833333333333334,
+        "combined_score": 0.22100734725444704,
+        "common_words": 5,
+        "expected_words": 24
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "bank",
+          "charge",
+          "fee",
+          "payment"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "Are there any hidden charges?",
+      "expected": "There are no hidden charges. All charges are mentioned in our Schedule of Charges available at our website and at all branches of NUST Bank.",
+      "generated": "user\n\nAre there any hidden charges?assistant\n\nOur standard rates do not include the following additional services:\n\n*   Late payment fees\n*   NSF (Non-Sufficient Funds) fees\n*   Overdraft transfer fees\n*   Balance inquiry at ATMs of other banks\n*   Cash withdrawal from ATMs of other banks\n*   Cheque book issuance and replacement\n*   Demand Draft Issuance\n*   Inter Branch Online Transfer\n*   SMS alerts on transactions\n*   E-statement and e-Statement alerts\n*   Internet banking\n*   Mobile Banking\n*   Debit Card issuance and replacement\n*   Cheque Book Replacement\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Cheque Book Issuance\n*   Che",
+      "generation_time": 26.26723885536194,
+      "similarity": {
+        "sequence_similarity": 0.18799546998867497,
+        "word_similarity": 0.3888888888888889,
+        "combined_score": 0.32862086321882467,
+        "common_words": 7,
+        "expected_words": 18
+      },
+      "banking_eval": {
+        "banking_score": 15,
+        "banking_words": [
+          "bank",
+          "balance",
+          "transfer",
+          "charge",
+          "fee",
+          "debit",
+          "withdrawal",
+          "payment",
+          "transaction",
+          "branch",
+          "atm",
+          "card",
+          "statement",
+          "overdraft",
+          "service"
+        ],
+        "relevance_percentage": 60
+      }
+    },
+    {
+      "question": "What is the current Mark-up rate of PMYB & ALS?",
+      "expected": "Tier 2: 5% per annum. Tier 3: 7% per annum.",
+      "generated": "user\n\nWhat is the current Mark-up rate of PMYB & ALS?assistant\n\nThe current mark-up rate for PMYB and ALS under NUST Hunarmand Finance Company (NHFC) is as follows:\ni. PMYB: 12% per annum\nii. ALS: 15% per annum.",
+      "generation_time": 6.618283987045288,
+      "similarity": {
+        "sequence_similarity": 0.15384615384615385,
+        "word_similarity": 0.2857142857142857,
+        "combined_score": 0.24615384615384614,
+        "common_words": 2,
+        "expected_words": 7
+      },
+      "banking_eval": {
+        "banking_score": 0,
+        "banking_words": [],
+        "relevance_percentage": 0
+      }
+    },
+    {
+      "question": "Any Account turnover requirement for NUST Rice Finance?",
+      "expected": "Minimum 50% of applicant’s sales to be documented through account turnover with bank(s).",
+      "generated": "user\n\nAny Account turnover requirement for NUST Rice Finance?assistant\n\nMinimum 50% of loan amount to be financed against account turnover of previous year. Minimum 75% of loan amount to be financed against account turnover of previous two years. Maximum 90% of loan amount to be financed against account turnover of previous three years. In case of new business, minimum 25% of loan amount to be financed without account turnover requirement provided other criteria are fulfilled. (SBP PR).",
+      "generation_time": 11.235549449920654,
+      "similarity": {
+        "sequence_similarity": 0.10338680926916222,
+        "word_similarity": 0.5384615384615384,
+        "combined_score": 0.4079391197038255,
+        "common_words": 7,
+        "expected_words": 13
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "account",
+          "loan",
+          "minimum",
+          "maximum"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "Is there any Insurance Coverage for this account?",
+      "expected": "• ATM Cash Withdrawal Insurance coverage up to daily cash withdrawal limit of the debit card from NUST Bank ATMs. • 24 hours world-wide ‘Accidental Death & Permanent Disability’ insurance coverage to Debit Card holders. Rs. 500,000/- and Rs. 700,000/- for Classic and Gold Debit Cards respectively. • 24 hours world-wide ‘Accidental Death & Permanent Disability’ insurance coverage. The sum insured per account holder shall be equivalent to four times of the average balance completed in the last six months – maximum up to Rs. 2.5 million.",
+      "generated": "user\n\nIs there any Insurance Coverage for this account?assistant\n\nNo. This account is not insured by the FDIC or NCUA. No right to insurance exists beyond the balance limits shown above even if you also have other deposits at this institution. A substantally similar deposit product at another institution is insured by the same agency, NCUA or FDIC.",
+      "generation_time": 8.219837427139282,
+      "similarity": {
+        "sequence_similarity": 0.07234539089848308,
+        "word_similarity": 0.14814814814814814,
+        "combined_score": 0.1254073209732486,
+        "common_words": 8,
+        "expected_words": 54
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "account",
+          "balance",
+          "deposit"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "What is the Application processing Charges?",
+      "expected": "It will be as per prevailing Schedule of Charges (SOC) or As per corporate arrangement.",
+      "generated": "user\n\nWhat is the Application processing Charges?assistant\n\nThe application processing charges are as follows:\n- For Indian Nationals: Rs. 1000/-\n- For Foreign Nationals: US $ 50 or equivalent (Rupees 3,500/-) or Australian $ 70 or equivalent (Rupees 4,000/-). The payment should be made through Demand Draft in favour of ‘Director General of NALSA, payable at New Delhi’. The application fee once paid will not be refunded. However, it can be adjusted against the course fees if admission is taken within one year from the date of receipt of application. The application form along with required documents and demand draft should reach to Director General, National Law University and Judicial Academy, Gr.Noida – 201314 (U.P.) by post/courier. The candidates are advised to attach a self-addressed envelope (size 9” x 5”) with postal index number with their application for sending the acknowledgement slip. The application without the application processing charges will not be entertained",
+      "generation_time": 26.500592708587646,
+      "similarity": {
+        "sequence_similarity": 0.12221144519883609,
+        "word_similarity": 0.5384615384615384,
+        "combined_score": 0.4135865104827277,
+        "common_words": 7,
+        "expected_words": 13
+      },
+      "banking_eval": {
+        "banking_score": 4,
+        "banking_words": [
+          "charge",
+          "fee",
+          "payment",
+          "application"
+        ],
+        "relevance_percentage": 16
+      }
+    },
+    {
+      "question": "What is the security requirement for availing PMYB & ALS?",
+      "expected": "Tier 2: i. Clean; personal guarantee of the borrower. ii. 02 Post Dated cheques for installment amount. iii. 01 Post Dated cheque for full loan amount plus mark up as per amortization schedule. Tier 3: i. Mortgage of residential/commercial/industrial property owned by borrower or third party. ii. HPA on vehicle in the name of borrower or immediate family member. iii. Liquid security (lien on deposit, Saving certificates, TDRs etc.).",
+      "generated": "user\n\nWhat is the security requirement for availing PMYB & ALS?assistant\n\nThe security requirements are as under: i) Personal Guarantee of borrower. ii) 03 Post Dated cheques equivalent to 1% of loan amount per month as recovery of mark-up payment till first disbursement. iii) One personal surety (Guarantor). iv) Mortgage of residential/commercial/industrial property owned by borrower or his family members. v) Any other collateral security acceptable to NUST. Note: The security requirements may be relaxed in case of borrowers having good track record with NUST. In such cases, only personal guarantee and one post dated cheque per month would be required. However, it will be at the discretion of concerned officer.",
+      "generation_time": 17.935601949691772,
+      "similarity": {
+        "sequence_similarity": 0.16576576576576577,
+        "word_similarity": 0.48148148148148145,
+        "combined_score": 0.38676676676676675,
+        "common_words": 26,
+        "expected_words": 54
+      },
+      "banking_eval": {
+        "banking_score": 3,
+        "banking_words": [
+          "loan",
+          "mortgage",
+          "payment"
+        ],
+        "relevance_percentage": 12
+      }
+    },
+    {
+      "question": "Bancassurance is offered by following three Insurance Provider companies:",
+      "expected": "• NUST Life Assurance Company Ltd\n• EFU Life Assurance Company Ltd\n• Jubilee Life Insurance Company Ltd.",
+      "generated": "user\n\nBancassurance is offered by following three Insurance Provider companies:assistant\n\nNUST Life Assurance Company Limited\nEFU Life Assurance Company Limited\nJahan Insurance Company Limited.",
+      "generation_time": 2.942086696624756,
+      "similarity": {
+        "sequence_similarity": 0.5979381443298969,
+        "word_similarity": 0.75,
+        "combined_score": 0.704381443298969,
+        "common_words": 6,
+        "expected_words": 8
+      },
+      "banking_eval": {
+        "banking_score": 0,
+        "banking_words": [],
+        "relevance_percentage": 0
+      }
+    }
+  ]
+}
