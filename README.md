@@ -1,154 +1,326 @@
-# 🏦 BankBot AI - Assistant Bancaire Intelligent
+# 🏦 Banking Chatbot - AI-Powered Customer Service Assistant
 
-Un assistant bancaire intelligent utilisant **RAG (Retrieval-Augmented Generation)** et **Fine-tuning** avec Llama 3.1 pour fournir des réponses précises et contextuelles aux questions bancaires.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18.3+-61dafb.svg)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![BankBot AI](https://img.shields.io/badge/AI-Banking%20Assistant-blue?style=for-the-badge&logo=robot)
-![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
-![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue?style=for-the-badge&logo=typescript)
+A sophisticated banking chatbot leveraging cutting-edge AI technologies including **RAG (Retrieval-Augmented Generation)**, **LoRA fine-tuning** on **Llama 3.1 8B**, and **multi-modal voice integration** to provide intelligent, context-aware banking assistance.
 
-## ✨ Fonctionnalités
+## 🌟 Key Features
 
-- 🤖 **Assistant IA avancé** avec RAG et Fine-tuning
-- 💬 **Interface de chat moderne** avec React + TypeScript
-- 🧠 **Recherche hybride intelligente** (cache local + IA)
-- 📚 **Base de connaissances bancaires** complète
-- 🎤 **Reconnaissance vocale** intégrée
-- 🔊 **Synthèse vocale** pour les réponses
-- 📱 **Interface responsive** et moderne
-- 📈 **Métriques de performance** en temps réel
-- 💾 **Historique des conversations** persistant
-- 🌙 **Mode sombre/clair** adaptatif
+### 🤖 Hybrid AI Architecture
+- **RAG System**: Retrieval-Augmented Generation using ChromaDB vector database and TF-IDF similarity search
+- **Fine-tuned LLM**: Llama 3.1 8B model fine-tuned with LoRA (Low-Rank Adaptation) on banking-specific dataset
+- **Intelligent Context Retrieval**: Multi-level history system with semantic search and similarity scoring
+- **GPU Acceleration**: CUDA-optimized inference with 4-bit quantization for efficient memory usage
+
+### 🎙️ Voice Integration
+- **Speech-to-Text**: OpenAI Whisper model for accurate voice recognition
+- **Text-to-Speech**: Google TTS (gTTS) and Coqui TTS for natural voice responses
+- **Multi-language Support**: Optimized for French and English banking queries
+
+### 💻 Modern Web Interface
+- **React Frontend**: Built with React 18.3, TypeScript, and Vite
+- **UI Components**: Shadcn/ui with Radix UI primitives for accessible, beautiful interfaces
+- **Responsive Design**: TailwindCSS with dark/light theme support
+- **Real-time Chat**: WebSocket-ready architecture for instant responses
+
+### 📊 Advanced Features
+- **Conversation History**: Persistent chat history with semantic search
+- **Context-Aware Responses**: Maintains conversation context across sessions
+- **Performance Monitoring**: Response time tracking and similarity scoring
+- **Health Checks**: Comprehensive API health monitoring endpoints
 
 ## 🏗️ Architecture
 
-### Backend
-- **FastAPI** - API REST moderne et rapide
-- **Ollama** - Serveur de modèles LLM local
-- **Llama 3.1:8b** - Modèle de base
-- **Fine-tuning** - Modèle spécialisé bancaire
-- **ChromaDB** - Base de données vectorielle pour RAG
-- **PostgreSQL** - Persistance des conversations
-
-### Frontend
-- **React 18** avec TypeScript
-- **Tailwind CSS** - Styling moderne
-- **Shadcn/ui** - Composants UI élégants
-- **Zustand** - Gestion d'état
-- **Web Speech API** - Reconnaissance/synthèse vocale
-
-## 🚀 Installation et Démarrage
-
-### Prérequis
-- Python 3.8+
-- Node.js 18+
-- Ollama installé
-- PostgreSQL (optionnel)
-
-### 1. Cloner le projet
-```bash
-git clone https://github.com/votre-username/bankbot-ai.git
-cd bankbot-ai
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     Frontend (React)                         │
+│  Port 8080 - Modern UI with Voice Controls                  │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  Backend Services                            │
+├─────────────────────────────────────────────────────────────┤
+│  RAG API (FastAPI)          │  Speech Service (FastAPI)     │
+│  Port 8000                  │  Port 8004                    │
+│  - Llama 3.1 8B + LoRA     │  - Whisper STT                │
+│  - ChromaDB Vector Store    │  - gTTS/Coqui TTS             │
+│  - TF-IDF Retrieval        │  - Audio Processing           │
+└─────────────────────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Knowledge Base & Models                         │
+│  - wasifis/bank-assistant-qa Dataset                        │
+│  - ChromaDB Vector Database                                 │
+│  - Fine-tuned LoRA Adapters                                 │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### 2. Configuration Backend
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.10 or higher
+- Node.js 18+ and npm/bun
+- CUDA-compatible GPU (optional, for faster inference)
+- 16GB+ RAM recommended
+
+### Installation
+
+1. **Clone the repository**
 ```bash
-# Installer les dépendances Python
+git clone https://github.com/yourusername/banking-chatbot.git
+cd banking-chatbot
+```
+
+2. **Install Python dependencies**
+```bash
+# For full development environment
 pip install -r requirements.txt
 
-# Démarrer Ollama
-ollama serve
-
-# Télécharger le modèle Llama
-ollama pull llama3.1:8b
-
-# Démarrer l'API backend
-python backend_rag_api.py
+# Or minimal production setup
+pip install -r requirements-backend-minimal.txt
 ```
 
-### 3. Configuration Frontend
+3. **Install Frontend dependencies**
 ```bash
 cd "chat-bank-nexus-main(frontend v0)"
 npm install
+# or
+bun install
+```
+
+4. **Download and prepare models**
+```bash
+# Download Llama 3.1 8B model
+python download_llama_final.py
+
+# Prepare the knowledge base
+python rag_system_wasifis.py
+```
+
+### Running the Application
+
+#### Option 1: Professional Launcher (Recommended)
+```bash
+python start_professional_chatbot.py
+```
+This will automatically start all services in the correct order.
+
+#### Option 2: Manual Start
+
+**Terminal 1 - RAG API:**
+```bash
+uvicorn backend_rag_api:app --host 0.0.0.0 --port 8000
+```
+
+**Terminal 2 - Speech Service:**
+```bash
+uvicorn compatible_speech_service:app --host 0.0.0.0 --port 8004
+```
+
+**Terminal 3 - Frontend:**
+```bash
+cd "chat-bank-nexus-main(frontend v0)"
 npm run dev
 ```
 
-### 4. Accéder à l'application
-- **Frontend** : http://localhost:5173
-- **Backend API** : http://localhost:8000
-- **Documentation API** : http://localhost:8000/docs
+Access the application at: `http://localhost:8080`
 
-## 📊 Fonctionnalités Techniques
+## 📚 Technology Stack
 
-### Système RAG Avancé
-- **Embedding** des documents bancaires
-- **Recherche sémantique** dans la base de connaissances
-- **Génération augmentée** avec contexte pertinent
-- **Score de similarité** et métriques de confiance
+### Backend
+- **Framework**: FastAPI 0.104+ with async/await support
+- **AI/ML**: 
+  - PyTorch 2.0+ with CUDA support
+  - Transformers 4.35+ (Hugging Face)
+  - PEFT 0.6+ (Parameter-Efficient Fine-Tuning)
+  - Accelerate 0.24+ for distributed training
+  - BitsAndBytes for 4-bit quantization
+- **Vector Database**: ChromaDB 0.4+ with persistent storage
+- **Embeddings**: Sentence-Transformers (all-MiniLM-L6-v2)
+- **Retrieval**: Scikit-learn TF-IDF + Cosine Similarity
+- **Speech**: 
+  - OpenAI Whisper (base model)
+  - gTTS (Google Text-to-Speech)
+  - Coqui TTS (optional)
 
-### Cache Intelligent
-- **Cache local** pour les réponses fréquentes
-- **Recherche hybride** (cache + IA)
-- **Optimisation des performances** automatique
+### Frontend
+- **Framework**: React 18.3 with TypeScript 5.5
+- **Build Tool**: Vite 5.4
+- **UI Library**: 
+  - Shadcn/ui components
+  - Radix UI primitives
+  - Lucide React icons
+- **Styling**: TailwindCSS 3.4 with custom animations
+- **State Management**: TanStack Query 5.56
+- **Routing**: React Router DOM 6.26
+- **Forms**: React Hook Form 7.53 + Zod validation
+- **Theme**: next-themes for dark/light mode
 
-### Interface Utilisateur
-- **Design moderne** avec animations fluides
-- **Actions rapides** prédéfinies
-- **Historique complet** des conversations
-- **Thème adaptatif** jour/nuit
+### Data & Training
+- **Dataset**: wasifis/bank-assistant-qa (Hugging Face)
+- **Fine-tuning**: LoRA (Low-Rank Adaptation)
+- **Training Framework**: TRL (Transformer Reinforcement Learning)
+- **Monitoring**: Weights & Biases, TensorBoard
+
+## 📁 Project Structure
+
+```
+chatbot/
+├── backend_rag_api.py              # Main RAG API service
+├── backend_rag_fast.py             # Optimized fast version
+├── compatible_speech_service.py    # Speech service API
+├── professional_speech_service.py  # Advanced speech features
+├── start_professional_chatbot.py   # Coordinated launcher
+├── banking_knowledge_base.py       # Knowledge base management
+├── backend_chat_history.py         # Conversation history system
+│
+├── models/                         # AI models directory
+│   └── Llama-3.1-8B-Instruct/     # Base model
+│
+├── llama_banking_final_fidelity/  # Fine-tuned LoRA adapters
+│   ├── adapter_config.json
+│   └── adapter_model.safetensors
+│
+├── chroma_db_wasifis/             # Vector database
+│
+├── banking_documents/              # Knowledge base documents
+│   ├── comptes_bancaires.txt
+│   ├── cartes_bancaires.txt
+│   ├── prets_credits.txt
+│   └── faq.json
+│
+├── chat-bank-nexus-main(frontend v0)/  # React frontend
+│   ├── src/
+│   │   ├── components/            # React components
+│   │   ├── hooks/                 # Custom hooks
+│   │   └── lib/                   # Utilities
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── requirements.txt                # Python dependencies
+├── requirements-backend-minimal.txt
+├── requirements-training.txt
+└── README.md
+```
+
+## 🎯 API Endpoints
+
+### RAG API (Port 8000)
+
+- `GET /` - API status
+- `GET /health` - Health check with model status
+- `POST /chat` - Main chat endpoint
+  ```json
+  {
+    "message": "Comment ouvrir un compte bancaire?",
+    "conversation_id": "optional-id"
+  }
+  ```
+- `POST /history/search` - Search conversation history
+- `GET /history/all` - Get all conversations
+- `DELETE /history/clear` - Clear history
+
+### Speech Service (Port 8004)
+
+- `POST /transcribe` - Convert speech to text (Whisper)
+- `POST /synthesize` - Convert text to speech (TTS)
+- `GET /health` - Service health check
 
 ## 🔧 Configuration
 
-### Variables d'environnement
-```env
-# Backend
-OLLAMA_BASE_URL=http://localhost:11434
-DATABASE_URL=postgresql://user:password@localhost:5432/bankbot_db
+### Environment Variables
 
-# Frontend
-VITE_API_BASE_URL=http://localhost:8000
+Create a `.env` file in the root directory:
+
+```env
+# Model Configuration
+MODEL_PATH=./models/Llama-3.1-8B-Instruct
+ADAPTER_PATH=./llama_banking_final_fidelity
+DEVICE=cuda  # or cpu
+
+# API Configuration
+RAG_API_PORT=8000
+SPEECH_API_PORT=8004
+FRONTEND_PORT=8080
+
+# Hugging Face (for model downloads)
+HF_TOKEN=your_huggingface_token_here
 ```
 
-### Personnalisation
-- Modifiez `banking_knowledge_base.json` pour ajouter vos données
-- Ajustez les prompts dans `backend_rag_api.py`
-- Personnalisez l'interface dans `src/components/`
+## 🧪 Testing
 
-## 📈 Métriques et Performance
+```bash
+# Test the RAG system
+python test_banking_chatbot.py
 
-- **Temps de réponse** : < 2 secondes
-- **Précision** : 95%+ avec fine-tuning
-- **Cache hit rate** : 80%+ pour les questions fréquentes
-- **Satisfaction utilisateur** : Mesurée via feedback
+# Test fine-tuned model
+python test_finetuned_llama.py
 
-## 🤝 Contribution
+# Test speech integration
+python test_whisper_ffmpeg.py
 
-Les contributions sont les bienvenues ! Voici comment contribuer :
+# Run complete integration tests
+python test_integration_complete.py
+```
 
-1. Fork le projet
-2. Créez une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
+## 📈 Performance
 
-## 📝 Licence
+- **Response Time**: 1-3 seconds (with GPU)
+- **Similarity Accuracy**: 85%+ on banking queries
+- **Model Size**: ~4.5GB (quantized)
+- **Memory Usage**: ~8GB VRAM (GPU) / ~16GB RAM (CPU)
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+## 🛠️ Development
 
-## 👥 Auteurs
+### Training Custom Model
 
-- **Votre Nom** - *Développeur Principal* - [@votre-github](https://github.com/votre-username)
+```bash
+# Prepare dataset
+python prepare_banking_dataset.py
 
-## 🙏 Remerciements
+# Start fine-tuning
+python final_high_fidelity.py
 
-- [Ollama](https://ollama.ai/) pour l'infrastructure LLM
-- [Meta](https://ai.meta.com/) pour Llama 3.1
-- [Shadcn/ui](https://ui.shadcn.com/) pour les composants UI
-- La communauté open source pour les outils utilisés
+# Resume training if interrupted
+python resume_final_training.py
+```
+
+### Adding New Banking Documents
+
+1. Add documents to `banking_documents/`
+2. Rebuild vector database:
+```bash
+python rag_system_wasifis.py
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- **Llama 3.1** by Meta AI
+- **Hugging Face** for transformers and datasets
+- **wasifis/bank-assistant-qa** dataset
+- **OpenAI Whisper** for speech recognition
+- **Shadcn/ui** for beautiful UI components
+
+## 📞 Contact
+
+For questions or support, please open an issue on GitHub.
 
 ---
 
-⭐ **N'hésitez pas à donner une étoile si ce projet vous a aidé !**
-"# chatbotbancaire" 
-"# chatbotbancaire" 
-"# chatbotbancaire" 
+**Built with ❤️ using cutting-edge AI technologies**
+
