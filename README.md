@@ -64,27 +64,27 @@ A sophisticated banking chatbot leveraging cutting-edge AI technologies includin
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](/IMG_1603.png)
+<img src="/IMG_1603.png" width="400" alt="Welcome screen with quick action buttons">
 *Welcome screen with quick action buttons*
 
 ### Account Information Query
-![Account Requirements](images/IMG_1607.png)
+<img src="/IMG_1607.png" width="400" alt="Answering about minimum balance requirements">
 *Answering about minimum balance requirements for NUST accounts*
 
 ### Interactive Conversation
-![Interactive Chat](images/IMG_1615.png)
+<img src="/IMG_1615.png" width="400" alt="Real-time conversation">
 *Real-time conversation with confidence scoring*
 
 ### Contact Information
-![Contact Details](images/IMG_1616.png)
+<img src="/IMG_1616.png" width="400" alt="Contact information">
 *Providing bank department contact information with local cache*
 
 ### Transfer-Related Queries
-![Transfer Questions](images/IMG_1618.png)
+<img src="images/IMG_1618.png" width="400" alt="Transfer questions">
 *Suggested questions for transfer operations*
 
 ### Chat History
-![Conversation History](images/IMG_1605.png)
+<img src="/IMG_1605.png" width="400" alt="Chat history">
 *Complete chat history and session management*
 
 ## 🚀 Quick Start
@@ -341,6 +341,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **wasifis/bank-assistant-qa** dataset
 - **OpenAI Whisper** for speech recognition
 - **Shadcn/ui** for beautiful UI components
+
 
 
 
