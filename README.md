@@ -67,6 +67,11 @@ A sophisticated banking chatbot leveraging cutting-edge AI technologies includin
 <img src="/IMG_1603.png" width="400" alt="Welcome screen with quick action buttons">
 *Welcome screen with quick action buttons*
 
+### Dark Mode 
+<img src="/IMG_1610.png" width="400" alt="Answering about minimum balance requirements">
+*Answering about minimum balance requirements for NUST accounts*
+
+
 ### Account Information Query
 <img src="/IMG_1607.png" width="400" alt="Answering about minimum balance requirements">
 *Answering about minimum balance requirements for NUST accounts*
@@ -80,7 +85,7 @@ A sophisticated banking chatbot leveraging cutting-edge AI technologies includin
 *Providing bank department contact information with local cache*
 
 ### Transfer-Related Queries
-<img src="images/IMG_1618.png" width="400" alt="Transfer questions">
+<img src="/IMG_1618.png" width="400" alt="Transfer questions">
 *Suggested questions for transfer operations*
 
 ### Chat History
@@ -341,6 +346,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **wasifis/bank-assistant-qa** dataset
 - **OpenAI Whisper** for speech recognition
 - **Shadcn/ui** for beautiful UI components
+
 
 
 
