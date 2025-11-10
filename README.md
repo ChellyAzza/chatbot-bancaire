@@ -316,11 +316,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **OpenAI Whisper** for speech recognition
 - **Shadcn/ui** for beautiful UI components
 
-## 📞 Contact
 
-For questions or support, please open an issue on GitHub.
 
----
-
-**Built with ❤️ using cutting-edge AI technologies**
 
